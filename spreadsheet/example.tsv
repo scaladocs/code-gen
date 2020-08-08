@@ -1,0 +1,33 @@
+packageObjectName	canonicalPath	title	signature	description	tags	links	example:title	example:description	example:tags	example:snippet
+list	scala/collection/immutable/List.html	List	scala.collection.immutable.List[+A]	An immutable linked list of elements of type A.	Standard Library	Official Docs for List|https://www.scala-lang.org/api/current/scala/collection/immutable/List.html	List.apply	Building a list using the comanion object's apply	Comanion Object	
+							List.fill	Build a list that is filled with the provided element.	Comanion Object	
+							List.from	Build a list from another collection.	Comanion Object	
+							List.range	Create a list with the given range.	Comanion Object	
+							List.tabulate	Create a list containing the values produced by a given function.	Comanion Object	
+							List.unfold	Create a list of values relative to some state.	Comanion Object	
+							List.iterate	Create a list of values resulting by repeated invocations of the function on a value.	Comanion Object	
+							concat, ++	Concatenate a list 		
+							prependAll, ++:, :::	Adds all elements of the list to another list		
+							pepend, +:, ::	Adds an element to the start of the list.		
+							appendAll, :++	Adds all elements of the list to the end of another list.		
+							append, :+	Adds an element to the end of the list.		
+							collect	Creates a list of elements transformed by the provided partial function.		
+							collectFirst	Return an Option of the first transformed element defined by the partial function, if it exists. 		
+							contains	Tests if the given element is within the list.		
+							corresponds	Tets whether every element in the list corresponds to an element in another list.		
+							distinct, distinctBy	Retuns a list with just the distinct elements contained by the list.		
+							exists	Tests if at least one element in the list satisfies the given predicate.		
+							filter	Create a list of all items matching the predicate.		
+							find, findLast	Return an Option of the first element matching the predicate.		
+							flatMap	Create a flattened list of elements transformed by the given function.		
+							map	Create a list of elements transformed by the given function.		
+							flatten	Remove one level of nesting from the given nested list.		
+							fold	Accumulate the result of applying a binary operation on all elements of the list.		
+							foldLeft	Accumulate the result of applying a binary operation on all elements of the list, going from left to right.		
+							foldRight	Accumulate the result of applying a binary operation on all elements of the list, going from right to left.		
+							foreach	Apply the given function to each element in the list. This is typically used for side-effects.		
+							forall	Test if all elements in the list hold for the given predicate.		
+							partition	Create two list, one list for all elements satisfying the given predicate, and a second list for items not satisfying the given predicate.		
+							tapEach	Applies a function to each element of the list, returning the input list. This is used for it's side-effects.		
+							zip	Create a list of tuples, where corresponding elements of each list are matched up.		
+							zipWithIndex	Creates a list of tuples, where each element is matched with its index.		
